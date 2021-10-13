@@ -26,5 +26,10 @@ pipeline {
                 echo "New stage complete added"
             }
         }
+        stage('Test-Branch') {
+            steps {
+                echo "New stage test branch added"
+            }
+        }
     }
 }
